@@ -4,7 +4,7 @@ import { GraphQLClient, gql } from 'graphql-request'
 
 async function main() {
   const endpoint = 
-    'https://graphql.contentful.com/content/v1/spaces/in9qccnw3m3i/environments/master'
+    'https://graphql.contentful.com/content/v1/spaces/space_id/environments/master'
 
   const graphQLClient = new GraphQLClient(endpoint, {
     headers: {
